@@ -1,0 +1,116 @@
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "merriweather", serif;
+}
+
+div {
+    background: color #e4f9f5; ;
+}
+h1 , h2 {
+    color: #66bfbf;
+}
+
+h1 {
+    /* color: #66bfbf; */
+    margin: 50px auto 0 auto;
+    /* margin-top: 0; */
+    font-family: "sacramento", cursive;
+    font-size: 5.625rem;
+    line-height: 2;
+    /* width: 10%; */
+
+}
+
+h2 {
+    /* color: #66bfbf; */
+    font-family: "montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: "montserrat", sans-serif;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.top-container {
+    background-color: #e4f9fs;
+    position: relative;
+    padding-top: 100px 
+} 
+
+.middle-container {
+    background-color: red;
+    margin: 100px auto;
+    width: 200px;
+    /* height: 200px; */
+}
+
+.bottom-container {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.intro {
+    margin: auto;
+    width: 30%;
+}
+
+.bottomcloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.topcloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.profile {
+    height: 200px;
+    margin: 100px auto;
+    position: relative;
+    width: 200px;
+}
+
+.skill-row {
+    width: 50px;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row > img {
+    width: 25%;
+}
+
+.skill1 {
+    height: 200px;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill2 {
+    height: 200px;
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
